@@ -17,7 +17,7 @@ class Detail extends React.Component {
 				} else {
 					console.log('There was an error fetching from GitHub', error);
 				}
-			})
+			});
 	}
 
 	render() {
